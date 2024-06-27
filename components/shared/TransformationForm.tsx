@@ -24,6 +24,8 @@ import {
 import { CustomField } from "./CustomField";
 import { useEffect, useState, useTransition } from "react";
 import { AspectRatioKey, debounce, deepMergeObjects } from "@/lib/utils";
+import MediaUploader from "./MediaUploader";
+import TransformedImage from "./TransformedImage";
 
 export const formSchema = z.object({
   title: z.string(),
@@ -218,7 +220,7 @@ const TransformationForm = ({
           </div>
         )}
 
-        {/* {<div className="media-uploader-field">
+        {<div className="media-uploader-field">
           <CustomField
             control={form.control}
             name="publicId"
@@ -242,7 +244,7 @@ const TransformationForm = ({
             setIsTransforming={setIsTransforming}
             transformationConfig={transformationConfig}
           />
-        </div>} */}
+        </div>}
 
         <div className="flex flex-col gap-4">       {/*Buttons*/}
           <Button

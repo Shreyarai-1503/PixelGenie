@@ -137,3 +137,11 @@ declare type TransformedImageProps = {
     hasDownload?: boolean;
     setIsTransforming?: React.Dispatch<React.SetStateAction<boolean>>;
 };
+
+declare type MediaUploaderProps = {
+    onValueChange: (value: string) => void;
+    setImage: React.Dispatch<any>;
+    image: any;
+    publicId: string;
+    type: string;
+  };
