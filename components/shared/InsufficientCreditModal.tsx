@@ -45,7 +45,7 @@ export const InsufficientCreditModal = () => {
           />
 
           <AlertDialogTitle className="p-24-bold text-dark-600">
-            Uh-oh! It looks like you've used up all your free credits!
+            Uh-oh! It looks like you&#39;ve used up all your free credits!
           </AlertDialogTitle>
 
           <AlertDialogDescription className="p-16-regular py-3">

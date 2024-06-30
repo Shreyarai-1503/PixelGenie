@@ -50,8 +50,6 @@ This project has been an incredible learning experience and a significant boost 
 
 **Transformation Details**: View details of each transformation.
 
-**Manage Transformations**: Delete and update transformations.
-
 **Credit System**: Earn or purchase credits for transformations.
 
 **User Profile**: Access personal images and credit info.
