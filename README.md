@@ -50,9 +50,9 @@ This project has been an incredible learning experience and a significant boost 
 
 **Transformation Details**: View details of each transformation.
 
-**Credit System**: Earn or purchase credits for transformations.
+**Credit System**: Purchase credits for transformations.
 
-**User Profile**: Access personal images and credit info.
+**User Profile**: Access credit info.
 
 **Credit Purchase**: Securely buy credits via Stripe.
 
@@ -77,7 +77,7 @@ Make sure you have the following installed on your machine:
 git clone https://github.com/Shreyarai-1503/PixelGenie.git
 cd PixelGenie
 ```
-**Important Note**: To avoid errors, change folder name to lowercase.
+**Important Note**: To avoid errors, change the folder name to lowercase.
 
 **Installation**
 
@@ -117,9 +117,12 @@ CLOUDINARY_API_SECRET=
 STRIPE_SECRET_KEY=
 STRIPE_WEBHOOK_SECRET=
 NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=
+
+#URL
+NEXT_PUBLIC_SERVER_URL=
 ```
 
-Replace the placeholder values with your actual respective account credentials. You can obtain these credentials by signing up on the [Clerk](https://clerk.com/), [MongoDB](https://www.mongodb.com/), [Cloudinary](https://cloudinary.com/) and [Stripe](https://stripe.com)
+Replace the placeholder values with your actual respective account credentials. You can obtain these credentials by signing up on the [Clerk](https://clerk.com/), [MongoDB](https://www.mongodb.com/), [Cloudinary](https://cloudinary.com/), and [Stripe](https://stripe.com)
 
 **Running the Project**
 
