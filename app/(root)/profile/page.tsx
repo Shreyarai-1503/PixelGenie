@@ -52,7 +52,7 @@ const Profile = async ({ searchParams }: SearchParamProps) => {
       <section className="mt-8 md:mt-14">
         <Collection
           images={images?.data}
-          totalPages={images?.totalPage}
+          totalPages={images?.totalPages}
           page={page}
         />
       </section>
