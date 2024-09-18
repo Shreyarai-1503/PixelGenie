@@ -61,7 +61,7 @@ This project has been an incredible learning experience and a significant boost 
 
 
 
-## <a name="testing">Tesing the project</a>
+## <a name="testing">Username-Password</a>
 
 **username**: cookie
 
