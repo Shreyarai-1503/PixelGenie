@@ -5,7 +5,8 @@
 1. [Introduction](#introduction)
 2. [Tech Stack](#tech-stack)
 3. [Features](#features)
-4. [Quick Start](#quick-start)
+4. [Username-Password](#testing)
+5. [Quick Start](#quick-start)
 
 ## <a name="introduction">Introduction</a>
 
@@ -57,6 +58,14 @@ This project has been an incredible learning experience and a significant boost 
 **Credit Purchase**: Securely buy credits via Stripe.
 
 **Responsive Design**: Seamless experience across devices.
+
+
+
+## <a name="testing">Tesing the project</a>
+
+**username**: cookie
+
+**password**: cookie@image
 
 
 
